@@ -1,0 +1,212 @@
+/* font-family: "Work Sans", sans-serif; */
+*{
+    /* font-family: work sans; */
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height: 806px;
+    background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+     url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#hero .hero-c{
+    width: 669px;
+    margin:0 auto
+}
+.sub-title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin: 16px 0px;
+
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px 0px;
+}
+.desc{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin: 24px 0px;
+
+}
+.btn1{
+   color: rgb(255, 255, 255);
+    Font: Work Sans;
+    width: 200px;
+    height: 46px;
+    border-radius: 8px;
+    margin-left: 215px;
+    background: rgb(82, 195, 3);
+    border: none;
+}
+
+.card1{
+    width: 424px;
+height: 210px;
+}
+#pz{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+#yfb{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 15px;
+}
+.pb{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+
+
+/* Frame 9 */
+position: static;
+width: 200px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 15px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 14px 10px; */
+margin: 14px auto;
+
+}
+
+#alldiv{
+    display: flex;
+}
+.discount{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+.lastd{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+#food{
+    /* image 1 */
+width:690px;
+height: 471px;
+left: 0;
+top: 0;
+margin-top: 30px;
+}
+#foodd{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+}
+#miss{
+    /* Don’t miss a thing! Subscribe to our newsletter */
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+padding-top: 10px;
+
+}
+#follow{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+margin: 30px 0px;
+}
+#display{
+    display: flex;
+}
+#make{
+    margin:auto auto;
+}
+.butt{
+    height: 100px;
+    width: 50px;
+}
+#was{
+    margin-left: 575px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.social{
+    background-color: antiquewhite;
+    padding: 30px 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social > a{
+   text-decoration: none;
+   font-size: 20px;
+}
